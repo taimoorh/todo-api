@@ -1,5 +1,5 @@
 {
-  "name": "todo-api",
+  "name": "node-todo-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,14 +14,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.2",
+    "crypto-js": "^3.1.9-1",
     "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
     "lodash": "^4.17.4",
     "mongodb": "^2.2.5",
-    "mongoose": "^4.13.6"
+    "mongoose": "^4.13.6",
+    "validator": "^9.2.0"
   },
   "devDependencies": {
-    "expect": "^1.20.2",
+    "expect": "^22.0.3",
     "mocha": "^4.0.1",
     "supertest": "^3.0.0"
   }
